@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "5221233ae5034384",
+    "type": "split",
+    "children": [
+      {
+        "id": "e287f209bfa9906e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37527d387e9d5d9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - 输入和输出/02 - 2 scanf() 函数.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 - 2 scanf() 函数"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c4e5dec2d70e355",
+    "type": "split",
+    "children": [
+      {
+        "id": "345a6d8ea50cde4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbd8be3731d82fba",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "260720c9bf01ada6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sizeof",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d331f6ca3c8a1e63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "af3115f5ed00819e",
+    "type": "split",
+    "children": [
+      {
+        "id": "dba56f4613c00650",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "842e947b6e9e0002",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "初识C语言/01 什么是C语言.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "01 什么是C语言 的反向链接列表"
+            }
+          },
+          {
+            "id": "9b5bf583d96c667c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "初识C语言/01 什么是C语言.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "01 什么是C语言 的出链列表"
+            }
+          },
+          {
+            "id": "b45a0d5ba69896fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "7d693d313bff7b1f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "初识C语言/01 什么是C语言.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "01 什么是C语言 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "37527d387e9d5d9b",
+  "lastOpenFiles": [
+    "02 - 输入和输出/02 - 3 星号修饰符.md",
+    "02 - 输入和输出/02 - 2 scanf() 函数.md",
+    "02 - 输入和输出/02 - 2 scanf() 函数_20251012_204014.md",
+    "02 - 输入和输出/02 - 2 scanf() 函数_冲突文件20251020153847.md",
+    "02 - 输入和输出/02 - 1 printf() 函数.md",
+    "好题/求最大公约数.md",
+    "求最大公约数.md",
+    "05 - 循环/05 - 2 for循环.md",
+    "05 - 循环/05 - 1 while循环.md",
+    "04 - 运算符和C语句/04 - 2 C语句.md",
+    "04 - 运算符和C语句/04 - 1 运算符.md",
+    "03 - 数据/03 - 0 - 数据类型.md",
+    "好题",
+    "05 - 循环",
+    "03 - 数据/03 - 2 常量.md",
+    "02 - 输入和输出/02 - 0 字符串.md",
+    "03 - 数据/03 - 1 变量.md",
+    "14 - 位操作/14 - 1 二进制数字的存储.md",
+    "引用文件/04 - 1 - 1.png",
+    "引用文件/14 - 1 - 2.png",
+    "引用文件/14 - 1 - 1.png",
+    "Pasted image 20251013164334.png",
+    "01 - 初识C语言/07 算法.md",
+    "附录资料/C 语言 math.h 常用函数速查表.md",
+    "04 - 运算符和C语句",
+    "引用文件/03 - 0 - 2.png",
+    "引用文件/03 - 0 - 3.png",
+    "01 - 初识C语言/01 什么是C语言.md",
+    "引用文件/03 - 0 - 1.png",
+    "03 - 数据/03 - 3 标识符.md",
+    "引用文件/02 - 0 - 3.png",
+    "引用文件/02 - 2 - 3.png",
+    "引用文件/02 - 2 - 2.png",
+    "未命名 3.base",
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.base",
+    "14 - 位操作",
+    "附录资料",
+    "03 - 算法/未命名.md",
+    "03 - 数据",
+    "2025-09-06.md",
+    "未命名.canvas",
+    "欢迎.md"
+  ]
+}
