@@ -50,3 +50,27 @@ int main()
 
     return 0;
 }
+
+
+// 思路2：从个位开始提取，之后逐渐*10提到对应位，最后累加，直到x==0。
+//变量：a,b,i
+
+#include <stdio.h>
+int main()
+{
+    int a,b,num,sum=0;
+    int i,j,n=0;
+    scanf("%d%d",&a,&b);
+    while(a!=0||b!=0){
+        num = (a%10 + b%10)%10;
+        a = a/10;
+        b = b/10;
+        for(i=1,j=1; i<=n; i++)  //对进位的处理。
+            j = j*10;
+        sum = sum + num*j;
+        n++;    
+    }
+    printf("%d",sum);
+
+    return 0;
+}
