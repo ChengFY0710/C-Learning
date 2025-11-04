@@ -5,7 +5,7 @@
 int main()
 {
     int num[6]={1, 2, 3, 4, 5};
-    int n, t, i;
+    int n, t=5, i;
     scanf("%d", &n);
     for(i=0; i<=4; i++){
         if(n <= num[i]){
@@ -14,10 +14,10 @@ int main()
         }
     }
 
-    for(i=4; i>t; i--){
+    for(i=4; i>=t; i--){
         num[i+1] = num[i];
     }
-    num[t+1] = n;
+    num[t] = n;
     for(i=0; i<=5; i++){
         printf("%d", num[i]);
     }

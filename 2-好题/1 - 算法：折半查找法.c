@@ -91,7 +91,7 @@ int main()
         else
             low = mid + 1;
     }
-    if(status = 0)
+    if(status == 0)
         printf("无此数");
     return 0;
 }
