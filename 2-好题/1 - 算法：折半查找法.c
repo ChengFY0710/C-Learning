@@ -95,3 +95,43 @@ int main()
         printf("无此数");
     return 0;
 }
+
+// 要求有相同时，输出最小的位数。
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d", &n);
+	int num[n];
+	int res[n];
+	int i, j=0;
+	int left=0, right=n-1, mid;
+	int s, result;
+	for(i=0; i<n; i++){
+		scanf("%d", &num[i]);
+		res[i] = 0;
+	}
+	scanf("%d", &s);
+	while(left <= right){
+		mid = (left+right)/2;
+		if(num[mid] == s){
+			result = mid + 1;
+			res[j] = mid+1;
+			j++;
+			right = mid-1;
+			continue;
+		}
+		if(num[mid] > s)
+			right = mid - 1;
+		else
+			left = mid + 1;
+	}
+	for(i=0; i<n; i++){
+        if(res[i]!=0)
+            result = result < res[i]+1 ? result : res[i]+1;
+	}
+	if(res[0] != 0) printf("%d", result);
+	else printf("None");
+
+	return 0;
+ }
